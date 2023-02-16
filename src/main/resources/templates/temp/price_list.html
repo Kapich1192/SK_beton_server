@@ -1,5 +1,4 @@
-<div th:fragment="price">
-    <div style="background-image: url(../img/about/fon-cena.jpg);">
+<div th:fragment="price" style="background-image: url(../img/about/fon-cena.jpg);">
         <div class="container text-center align-center">
             <br><h2>Стоимость бетона</h2><br>
             <table class="table-bordered align-center" align="center">
@@ -150,20 +149,23 @@
                 </tbody>
             </table>
         </div>
-    </div>
+</div>
 
-    <div class="container py-5 my-5">
-        <section class="p-md-5 mx-md-5 text-center" style="background-image: url(../img/about/fonn.png);">
-            <h2 class="text-center mx-auto font-weight-bold mb-4 pb-2 text-white">Доставка по Москве и Московской области</h2>
+<div th:fragment = "dost">
+    <div class = "price_list">
+    <div class="container py-5 my-5" >
+        <section class="p-md-5 mx-md-5 text-center" style="background-image: url(../img/about/betofon.jpg);">
+            <h2 class="text-center mx-auto font-weight-bold mb-4 pb-2 text-muted" id="dost">Доставка по Москве и Московской области</h2>
             <div class="row m-1">
                 <div class="col-lg-4 mb-1 mt-2 p-2">
                     <div class="card text-center">
                         <div class="card-header white">
-                            <h4 class="h4 my-2">АБС с объемом
+                            <h4 class="h4 my-2" >АБС с объемом
                                 <br>7м<sup>3</sup></h4>
                         </div>
-
+                        <h4 class="h1" style="background-image: url(../img/about/bticon1.png);" ></h4>
                         <div>
+                             <img src ="img/about/bticon1.png" align="top">
                             <i class="far fa-paper-plane fa-4x p-4 teal-text"></i>
                             <h1 class="h1">3500 Руб</h1>
                         </div>
@@ -197,8 +199,8 @@
                     </div>
                 </div>
             </div>
-            </div>>
+            </div>
         </section>
     </div>
 </div>
-
+</div>

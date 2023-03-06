@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://localhost:8081
+Sitemap: https://sk-beton.com

@@ -29,7 +29,7 @@ if ($_POST['act'] == 'order') {
     };
 
 //Передаем данные боту
-    $sendToTelegram = fopen("https://api.telegram.org/bot{$6173371023:AAHW48m_xi2r-SKaGBDa05zOw1OihYEM4xI}/sendMessage?chat_id={$6173371023}&parse_mode=html&text={$txt}","r");
+    $sendToTelegram = fopen("https://api.telegram.org/bot{6173371023:AAHW48m_xi2r-SKaGBDa05zOw1OihYEM4xI}/sendMessage?chat_id={6173371023}&parse_mode=html&text={$txt}","r");
 
 //Выводим сообщение об успешной отправке
     if ($sendToTelegram) {

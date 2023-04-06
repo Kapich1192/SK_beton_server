@@ -4,7 +4,7 @@
 $token = "1094153697:AAFiLXXXXXLl0hRDsxBij1lddKydKxSSsOg04";
 
 //Сюда вставляем chat_id
-$chat_id = "6173371023";
+$chat_id = "-6173371023";
 
 //Определяем переменные для передачи данных из нашей формы
 if ($_POST['act'] == 'order') {
@@ -29,7 +29,7 @@ if ($_POST['act'] == 'order') {
     };
 
 //Передаем данные боту
-    $sendToTelegram = f open("https://api.telegram.org/bot{6173371023:AAHW48m_xi2r-SKaGBDa05zOw1OihYEM4xI}/sendMessage?chat_id={6173371023}&parse_mode=html&text={$txt}","r");
+    $sendToTelegram = fopen("https://api.telegram.org/bot{6173371023:AAHW48m_xi2r-SKaGBDa05zOw1OihYEM4xI}/sendMessage?chat_id={-6173371023}&parse_mode=html&text={$txt}","r");
 
 //Выводим сообщение об успешной отправке
     if ($sendToTelegram) {
